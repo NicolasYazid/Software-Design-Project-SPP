@@ -1,0 +1,92 @@
+# =========================================================
+# Git Ignore para proyectos de Enterprise Architect
+# =========================================================
+# Este archivo evita subir archivos temporales, respaldos,
+# bloqueos y otros elementos innecesarios al repositorio.
+# Los archivos importantes del proyecto (.xml, .xmi, .eapx, etc.)
+# NO se ignoran.
+# =========================================================
+
+
+# =========================================================
+# Archivos temporales y de bloqueo de Microsoft Access
+# =========================================================
+# Enterprise Architect puede usar bases de datos Access.
+# Estos archivos se generan automáticamente cuando el
+# proyecto está abierto y NO deben subirse a Git.
+*.ldb
+*.laccdb
+
+
+# =========================================================
+# Respaldos automáticos
+# =========================================================
+# Archivos de respaldo generados automáticamente.
+*.bak
+*.backup
+
+
+# =========================================================
+# Archivos temporales
+# =========================================================
+*.tmp
+*.temp
+
+
+# =========================================================
+# Logs y reportes temporales
+# =========================================================
+*.log
+
+
+# =========================================================
+# Archivos de caché
+# =========================================================
+*.cache
+
+
+# =========================================================
+# Archivos generados por Windows
+# =========================================================
+Thumbs.db
+Desktop.ini
+
+
+# =========================================================
+# Archivos generados por macOS
+# =========================================================
+.DS_Store
+
+
+# =========================================================
+# Carpetas de configuración de IDEs o editores
+# =========================================================
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains (IntelliJ, CLion, etc.)
+.idea/
+
+
+# =========================================================
+# Archivos comprimidos temporales
+# =========================================================
+*.zip
+*.rar
+*.7z
+
+
+# =========================================================
+# IMPORTANTE
+# =========================================================
+# NO se ignoran:
+# - *.xml
+# - *.xmi
+# - *.eap
+# - *.eapx
+# - *.qea
+#
+# porque esos archivos normalmente contienen
+# el modelo principal de Enterprise Architect.
+# =========================================================
